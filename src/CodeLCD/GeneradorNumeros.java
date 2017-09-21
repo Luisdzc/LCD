@@ -8,13 +8,18 @@ import java.util.Vector;
  * Recive la estructura que almacena todas las entradas registradas.
  * Imprime los números ingresador del tamaño respectivo */
 public class GeneradorNumeros {
-	private Vector<Vector<String>> numeros; /** Estructrura que almacena todas las entradas ingresadas
-	 											cada vector interno posee dos elementos el tamaño de la 
-	 											fuente y el número a representar.*/ 
-	private int filasTotales; /** Cantidad de filas que posee la matriz de cada digito del número. */
-	private int columnasTotales;/** Cantidad de columnas que posee la matriz de cada digito del número. */
-	private int lineasHorizontales;/** Variable que indica la cantidad de caractes horizontales de cada digito. */
-	private int lineasVerticales;/** Variable que indica la cantidad de caractes verticales de cada digito. */
+	/** Estructrura que almacena todas las entradas ingresadas
+		cada vector interno posee dos elementos el tamaño de la 
+		fuente y el número a representar.*/ 
+	private Vector<Vector<String>> numeros;
+	/** Cantidad de filas que posee la matriz de cada digito del número. */
+	private int filasTotales;
+	/** Cantidad de columnas que posee la matriz de cada digito del número. */
+	private int columnasTotales;
+	/** Variable que indica la cantidad de caractes horizontales de cada digito. */
+	private int lineasHorizontales;
+	/** Variable que indica la cantidad de caractes verticales de cada digito. */
+	private int lineasVerticales;
 	/**Variable que indica la cantidad de espacio entre los dígitos. */
 	private int espacioDigitos;
 	

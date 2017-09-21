@@ -43,7 +43,7 @@ public class ConstructorNumero {
 	 * El mapa principal almacena las fuentes de los dígitos y el mapa interno alamacena
 	 * la matriz de cada dígito construido. */	  
 	private Map <String,Map <String,String[][]>> matricesNumeros = new HashMap<String, Map<String, String[][]>>();
-	
+	/** Variable que indica los espacios entre cada dígito de la matriz de impresión */
 	private int espacioDigitos;
 	
 	
